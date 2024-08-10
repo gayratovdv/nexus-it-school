@@ -34,6 +34,29 @@ footer {
     p {
       font-size: 18px;
       color: #fff;
+      margin-top: 5px;
+    }
+  }
+  .footer__content--right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .footer__content--right-icons {
+        display: flex;
+        gap: 20px;
+        i {
+            font-size: 30px;
+            color: #fff;
+            cursor: pointer;
+            transition: color .6s ease;
+            &:hover {
+                color: #4a017d;
+            }
+        }
+    }
+    p {
+        font-size: 18px;
+        color: #fff;
     }
   }
 }

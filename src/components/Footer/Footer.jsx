@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../Container/Container";
 import { Link } from "react-router-dom";
 import "./footer.css";
-import Logo from "../../assets/logo.png"
+import Logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -10,7 +10,9 @@ const Footer = () => {
       <Container>
         <div className="footer__content">
           <div className="footer__content--left">
-            <img src={Logo} alt="" />
+            <Link to="/">
+              <img src={Logo} alt="logo" />
+            </Link>
             <div className="footer__content--left-wrapper">
               <ul className="footer__content--left-list">
                 <li>
